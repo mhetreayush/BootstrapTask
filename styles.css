@@ -1,0 +1,58 @@
+.rec{
+    border-radius: 10px ;
+    background-color: rgb(239, 229, 230);
+    line-height: 2;
+}
+
+#elipse3{
+    transform: scaleX(-1);
+    width: 4rem;
+    position: absolute;
+    right: 0;
+    padding-top: 4rem;
+}
+#elipseTop{
+    position: absolute;
+    right:25%;
+    top:-11%;
+    transform: rotate(90deg);
+}
+.footerDiv{
+    color: white;
+    background-color: black;
+}
+#main a :hover{
+    scale: 3;
+    background-color: black;
+    color: white;
+    border-radius: 0.3rem;
+    padding: 0.3px;
+}
+hr{
+    margin-left: 3rem;
+    width: 25%;
+    border: solid rgb(255, 0, 0);
+    border-radius: 3px;
+}
+.topicHeading1 hr{
+    width: 25%;
+}
+.topicHeading2 hr{
+    width: 35%;
+}
+.item{
+    display: inline-block;
+    position: relative;
+    width: max-content;
+    left: 85%;
+    top: -10%;
+    transform: rotate(-30deg);
+}
+
+@media (max-width:420px){
+    .item{
+        width: 5rem;
+        top:-3%;
+        left: 72.5%;
+    }
+}
